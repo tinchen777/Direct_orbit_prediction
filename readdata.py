@@ -52,6 +52,3 @@ combined_df2 = combined_df.drop(columns=['satellite_id', 'PDOP', 'other'], inpla
 
 # 将合并后的 DataFrame 保存到新的 CSV 文件
 combined_df2.to_csv('dataset/star/combined.csv', index=False)
-
-
-

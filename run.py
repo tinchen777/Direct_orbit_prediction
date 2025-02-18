@@ -3,14 +3,16 @@ import os
 from exp.exp_main import Exp_Main
 import random
 import numpy as np
-#zxj
+import torch
+
 
 def set_gpu(x):
     os.environ['CUDA_VISIBLE_DEVICES'] = x
     print('using gpu:', x)
+
+
 set_gpu('1')
 
-import torch
 
 def main():
     fix_seed = 2021
@@ -159,8 +161,8 @@ def main():
 if __name__ == "__main__":
     main()
 
-#python -u run.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id ETTm1_96_24 --model Autoformer
-#--data ETTm1 --features M --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2
-#--d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --des 'Exp' --freq 't' --itr 1
+# python -u run.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id ETTm1_96_24 --model Autoformer
+# --data ETTm1 --features M --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2
+# --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --des 'Exp' --freq 't' --itr 1
 
-#python -u run.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id ETTm1_96_96 --model Transformer --data ETTm1 --features M --seq_len 96 --label_len 48 --pred_len 96 --e_layers 2 --d_layers 1 --enc_in 7 --dec_in 7 --c_out 7 --des 'Exp' --freq 't' --itr 1
+# python -u run.py --is_training 1 --root_path ./dataset/ETT-small/ --data_path ETTm1.csv --model_id ETTm1_96_96 --model Transformer --data ETTm1 --features M --seq_len 96 --label_len 48 --pred_len 96 --e_layers 2 --d_layers 1 --enc_in 7 --dec_in 7 --c_out 7 --des 'Exp' --freq 't' --itr 1

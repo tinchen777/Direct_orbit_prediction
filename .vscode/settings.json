@@ -1,0 +1,37 @@
+{
+    "workbench.colorCustomizations": {
+        "[Monokai][WarmNeon]": {
+            "editor.background": "#454545",
+            "editor.foreground": "#B1D9A0",
+            "editorWarning.foreground": "#ffa02b",
+            "editorError.foreground": "#ff0000",
+            "editorHint.foreground": "#00d7fd",
+            "editor.foldBackground": "#19c21443",
+            "editor.lineHighlightBorder": "#111b1e00",
+            "editor.lineHighlightBackground": "#11192393",
+            "editorUnnecessaryCode.opacity": "#0000007d",
+            "editor.findRangeHighlightBackground": "#562f6271",
+            "editor.findMatchHighlightBorder": "#ffd500fb",
+            "editor.selectionBackground": "#1b2825d5",
+            "editor.selectionHighlightBorder": "#ffff00b1",
+            "editor.wordHighlightBackground": "#3e492ad6",
+            "editor.wordHighlightBorder": "#00ff2281",
+            "editor.wordHighlightStrongBackground": "#273a4cd7",
+            "editor.wordHighlightStrongBorder": "#00aeff71",
+            "editor.wordHighlightTextBackground": "#273a36cd",
+            "editor.wordHighlightTextBorder": "#fefefe8e"
+        },
+        "editor.lineHighlightBackground": "#2e3a412d",
+        "editor.lineHighlightBorder": "#6dabafd7",
+        "editor.hoverHighlightBackground": "#00ff3314",
+        "folderPathColor.custom1": "#3fbc26",
+        "folderPathColor.custom2": "#88ff44",
+        "folderPathColor.custom3": "#4488FF",
+        "folderPathColor.custom4": "#FF4488",
+        "folderPathColor.custom5": "#88ff44",
+        "folderPathColor.custom6": "#4488FF",
+        "activityBar.background": "#5A1114",
+        "titleBar.activeBackground": "#7F181C",
+        "titleBar.activeForeground": "#FEFBFB"
+    }
+}
